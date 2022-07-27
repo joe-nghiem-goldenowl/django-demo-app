@@ -1,0 +1,20 @@
+{% load i18n %}
+{% for field in form %}
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="{{field.id_for_label}}">{% trans field.label %}</label>
+        <div class="col-10">
+            {% if field.label == "Language" %}
+                <select class="col-10 form-control required" name="{{field.html_name}}" id="{{field.id_for_label}}">
+                    {% for option in field %}
+                        {{option}}
+                    {% endfor %}
+                </select>
+            {% else %}
+                <input required type="text" name="{{field.html_name}}" class="col-10 form-control required" id="{{field.id_for_label}}" value="{{field.value|default_if_none:''}}">
+            {% endif %}
+            {% if field.errors %}
+                <span>{{ field.errors|striptags }}</span>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}

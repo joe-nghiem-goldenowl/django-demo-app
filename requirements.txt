@@ -1,0 +1,6 @@
+bugsnag==4.2.0
+Django==3.2.12
+django_celery_beat==2.2.1
+django_heroku==0.3.1
+python-dotenv==0.19.2
+requests==2.27.1

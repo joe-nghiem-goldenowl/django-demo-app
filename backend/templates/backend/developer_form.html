@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+    <div class="d-flex justify-content-center">
+        <h3>{{form_heading}}</h3>
+    </div>
+
+    <div class="container project-info">
+        <form method="post"> {% csrf_token %}
+            {{form}}
+            <div class="d-flex justify-content-center" style="margin-top: 10px;">
+                <button type="submit" class="btn btn-primary action">{{submit_text}}</button>
+                <button type="button" class="btn btn-danger action" onclick="window.location.href = '/'">{% trans 'Cancel' %}</button>
+            </div>
+        </form>
+    </div>
+    
+    {% load static %}
+    <script type="module" src="{% static 'scripts/utils.js'%}"></script>
+    <script type="module" src="{% static 'scripts/add_developer.js'%}"></script>
+{% endblock %}

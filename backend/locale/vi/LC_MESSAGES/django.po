@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-17 10:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\backend\forms\developer.py:12
+msgid "First name"
+msgstr "Họ"
+
+#: .\backend\forms\developer.py:13
+msgid "Last name"
+msgstr "Tên"
+
+#: .\backend\forms\developer.py:14
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: .\backend\forms\project.py:11
+#: .\backend\templates\backend\project_list.html:80
+msgid "Name"
+msgstr "Tên"
+
+#: .\backend\forms\project.py:12
+#: .\backend\templates\backend\project_list.html:81
+msgid "Description"
+msgstr "Mô tả"
+
+#: .\backend\forms\project.py:13
+#: .\backend\templates\backend\project_list.html:84
+msgid "Cost"
+msgstr "Chi phí"
+
+#: .\backend\forms\project.py:14
+msgid "Date start"
+msgstr "Ngày bắt đầu"
+
+#: .\backend\forms\project.py:15
+msgid "Date end"
+msgstr "Ngày kết thúc"
+
+#: .\backend\forms\project.py:16
+#: .\backend\templates\backend\project_list.html:20
+#: .\backend\templates\backend\project_list.html:85
+msgid "Developer"
+msgstr "Nhà phát triển"
+
+#: .\backend\forms\project.py:36
+msgid "Start date must be earlier than end date"
+msgstr "Ngày bắt đầu phải sớm hơn ngày kết thúc"
+
+#: .\backend\templates\backend\developer_form.html:13
+#: .\backend\templates\backend\project_form.html:14
+msgid "Cancel"
+msgstr "Hủy"
+
+#: .\backend\templates\backend\project_list.html:13
+msgid "New"
+msgstr "Tạo"
+
+#: .\backend\templates\backend\project_list.html:17
+msgid "Project"
+msgstr "Dự án"
+
+#: .\backend\templates\backend\project_list.html:32
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: .\backend\templates\backend\project_list.html:40
+#: .\backend\templates\backend\project_list.html:82
+msgid "Start date"
+msgstr "Ngày bắt đầu"
+
+#: .\backend\templates\backend\project_list.html:44
+#: .\backend\templates\backend\project_list.html:83
+msgid "End date"
+msgstr "Ngày kết thúc"
+
+#: .\backend\templates\backend\project_list.html:47
+msgid "Filter"
+msgstr "Lọc"
+
+#: .\backend\templates\backend\project_list.html:56
+msgid "Currency"
+msgstr "Tỉ giá"
+
+#: .\backend\templates\backend\project_list.html:76
+msgid "Current projects"
+msgstr "Dự án hiện tại"
+
+#: .\backend\templates\backend\project_list.html:86
+msgid "Actions"
+msgstr "Thao tác"
+
+#: .\backend\templates\backend\project_list.html:103
+#: .\backend\views\developer.py:28 .\backend\views\project.py:62
+msgid "Update"
+msgstr "Cập nhật"
+
+#: .\backend\templates\backend\project_list.html:106
+#: .\backend\templates\backend\project_list.html:148
+msgid "Delete"
+msgstr "Xóa"
+
+#: .\backend\templates\backend\project_list.html:141
+msgid "Delete warning"
+msgstr "Cảnh báo xóa"
+
+#: .\backend\templates\backend\project_list.html:144
+msgid "Do you want to delete selected project?"
+msgstr "Bạn có muốn xóa dự án này không?"
+
+#: .\backend\templates\backend\project_list.html:147
+msgid "Close"
+msgstr "Đóng"
+
+#: .\backend\views\developer.py:15
+msgid "Add"
+msgstr "Thêm"
+
+#: .\backend\views\developer.py:16
+msgid "Add developer"
+msgstr "Thêm người phát triển"
+
+#: .\backend\views\developer.py:29
+msgid "Update developer"
+msgstr "Cập nhật người phát triển"
+
+#: .\backend\views\project.py:63
+msgid "Update project"
+msgstr "Cập nhật dự án"
+
+#: .\backend\views\project.py:74
+msgid "Create"
+msgstr "Tạo"
+
+#: .\backend\views\project.py:75
+msgid "Create project"
+msgstr "Tạo dự án"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Project name"
+#~ msgstr "Tên dự án"
+
+#~ msgid "developer"
+#~ msgstr "người phát triển"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "project"
+#~ msgstr "dự án"
